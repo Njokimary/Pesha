@@ -1,13 +1,13 @@
-import './App.css';
+import React from 'react';
+import Navbar from './Components/Navbar';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <div className='text-6xl text-red-500'>
-        <h1>Hello,Tailwind Css</h1>
-      </div>
+    <div>
+      <Navbar />
+      {/* Your other content goes here */}
     </div>
   );
-}
+};
 
 export default App;
