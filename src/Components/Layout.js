@@ -2,7 +2,7 @@ import React from 'react';
 
 function Layout() {
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap" style={{ width: '1200px', height: '2160px', padding: '48px 0 96px 0', gap: '0' }}>
       
       <div className="w-full md:w-1/2 px-4 flex items-center">
         <div className="text-center">
@@ -22,7 +22,7 @@ function Layout() {
       <div className="w-full md:w-1/2 px-4 ">
         <img src='accounts.jpg' alt='pesha' className="w-460 h-460" />
       </div>
-      <div className="w-full md:w-1/2 px-4">
+      <div className="w-full md:w-1/2 px-4 flex items-center">
         <div className="text-center">
           <h1 className="text-3xl font-bold mb-4">Optimize Invoice Management</h1>
           <p className="text-lg mb-4">Generate and dispatch invoices instantly, incorporating direct payment links for convenience. Effortlessly monitor invoice payments, ensuring seamless tracking and management without hassle or delay.</p>
