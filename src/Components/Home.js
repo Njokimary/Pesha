@@ -2,6 +2,7 @@ import React from 'react';
 import LandingPage from './Landingpage';
 import Trusted from './Trusted';
 import Layout from './Layout';
+import Footer from './Footer';
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <LandingPage />
       <Trusted />
       <Layout/>
+      <Footer/>
     </div>
   );
 }
