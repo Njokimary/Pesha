@@ -48,6 +48,9 @@ function Footer() {
           </div>
         </div>
       </div>
+      <div className="text-center py-4">
+        <p>&copy; {new Date().getFullYear()} Zynamis. All Rights Reserved.</p>
+      </div>
     </footer>
   );
 }
